@@ -110,7 +110,7 @@ with col3:
 
 with col4:
     # Passo 7: Exibir um quadro com o ano de maior investimento da cidade selecionada
-    st.write("### Ano com Maior número de instituições")
+    st.write("### Ano com Maior número de instituições de Ensino Superior")
     # Verifica se foi selecionada uma localidade específica e se os dados filtrados não estão vazios
     if localidade_selecionada != "Todos" and not df_local.empty:
         # Seleciona os investimentos da localidade para as colunas dos anos
